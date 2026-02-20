@@ -28,7 +28,7 @@ HGT is crucial in the rapid spread of antibiotic-resistant genes among bacteria,
 
 ## Know more: Mechanisms of HGT
 
-:::::::::::::::  solution
+:::::::::::::::  spoiler
 
 ## Extra content
 

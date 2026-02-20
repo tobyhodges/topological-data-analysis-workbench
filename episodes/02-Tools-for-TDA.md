@@ -467,42 +467,53 @@ plt.show()
 gd.plot_persistence_barcode(diag,legend=True)
 ```
 
-> ## Exercise 2(Intermediate):  Constructing a Torus and Analyzing Persistent Homology.
-> 
-> Use the `tadasets.torus(n=num_points)` function to generate a dataset representing a torus. Ensure that `num_points` is an integer specifying the number of points to generate.
-> Once you have generated the torus, apply persistent homology techniques to analyze the topology of the dataset.
-> <a href="../fig/tda_09_torus.png">
+:::::::::::::::::::::::::::::::::::::: challenge
+
+## Exercise 2(Intermediate):  Constructing a Torus and Analyzing Persistent Homology.
+
+Use the `tadasets.torus(n=num_points)` function to generate a dataset representing a torus. Ensure that `num_points` is an integer specifying the number of points to generate.
+Once you have generated the torus, apply persistent homology techniques to analyze the topology of the dataset.
+<a href="../fig/tda_09_torus.png">
 
   <img src="fig/tda_09_torus.png" alt="Exercise 2 Torus" width="50%" height="auto"/>
 </a>
-> > ## Solution  
->> ~~~
->> #pip install tadasets
->> import tadasets
->> import gudhi
->> import matplotlib.pyplot as plt
->># Generate torus points
->>torus = tadasets.torus(n=100)
->># Create a Rips complex from the torus points
->>rips_complex = gudhi.RipsComplex(points=torus)
->># Obtain the simplicial complex
->>simplicial_complex = rips_complex.create_simplex_tree(max_dimension=2)
->># Compute the persistent homology of the simplicial complex
->>persistence = simplicial_complex.persistence()
->># Plot diagrams
->>gudhi.plot_persistence_diagram(persistence, legend=True)
->>plt.show()
->>~~~
->> <a href="fig/tda_09_persistence_exc2.png">
->>  <img src="fig/tda_09_persistence_exc2.png" alt="Bard Code" width="50%" height="auto" />
->> </a>
-> {: .solution}
-{: .challenge}
 
-> ## FIXME
-> 
-> Add something more to the keypoints
-> {: .caution}
+:::::::::::::::::::::::::: solution
+## Solution  
+```python
+#pip install tadasets
+import tadasets
+import gudhi
+import matplotlib.pyplot as plt
+# Generate torus points
+torus = tadasets.torus(n=100)
+# Create a Rips complex from the torus points
+rips_complex = gudhi.RipsComplex(points=torus)
+# Obtain the simplicial complex
+simplicial_complex = rips_complex.create_simplex_tree(max_dimension=2)
+# Compute the persistent homology of the simplicial complex
+persistence = simplicial_complex.persistence()
+# Plot diagrams
+gudhi.plot_persistence_diagram(persistence, legend=True)
+plt.show()
+```
+
+<a href="fig/tda_09_persistence_exc2.png">
+  <img src="fig/tda_09_persistence_exc2.png" alt="Bard Code" width="50%" height="auto" />
+</a>
+
+::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::
+
+
+:::::::::::::::::::::::::::::: caution
+
+## FIXME
+
+Add something more to the keypoints
+
+::::::::::::::::::::::::::::::::::::::
 
 
 
