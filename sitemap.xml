@@ -25,7 +25,13 @@
     <loc>https://carpentries-incubator.github.io/topological-data-analysis/LICENSE.html</loc>
   </url>
   <url>
+    <loc>https://carpentries-incubator.github.io/topological-data-analysis/aio.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries-incubator.github.io/topological-data-analysis/discuss.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries-incubator.github.io/topological-data-analysis/images.html</loc>
   </url>
   <url>
     <loc>https://carpentries-incubator.github.io/topological-data-analysis/index.html</loc>
@@ -55,16 +61,34 @@
     <loc>https://carpentries-incubator.github.io/topological-data-analysis/instructor/LICENSE.html</loc>
   </url>
   <url>
+    <loc>https://carpentries-incubator.github.io/topological-data-analysis/instructor/aio.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries-incubator.github.io/topological-data-analysis/instructor/discuss.html</loc>
   </url>
   <url>
+    <loc>https://carpentries-incubator.github.io/topological-data-analysis/instructor/images.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries-incubator.github.io/topological-data-analysis/instructor/index.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries-incubator.github.io/topological-data-analysis/instructor/instructor-notes.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries-incubator.github.io/topological-data-analysis/instructor/key-points.html</loc>
   </url>
   <url>
     <loc>https://carpentries-incubator.github.io/topological-data-analysis/instructor/profiles.html</loc>
   </url>
   <url>
     <loc>https://carpentries-incubator.github.io/topological-data-analysis/instructor/reference.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries-incubator.github.io/topological-data-analysis/instructor-notes.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries-incubator.github.io/topological-data-analysis/key-points.html</loc>
   </url>
   <url>
     <loc>https://carpentries-incubator.github.io/topological-data-analysis/profiles.html</loc>
