@@ -418,7 +418,7 @@ some examples of simplices.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Mathematical definition </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p>Given a set $ P=\{p_0,…,p_k\}\subset \mathbb{R}^d $ of $ k+1 $
 affinely independent points, the <strong>k-dimensional simplex</strong>
@@ -461,7 +461,7 @@ example of a simplicial complex.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Mathematical definition </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <p>A simplicial complex <span class="math inline">\(K\)</span> in $
 \mathbb{R}^d $ is a collection of simplices s.t:</p>
@@ -556,7 +556,7 @@ genomes are considered to be related.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3"> Mathematical definition </h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
 <div class="accordion-body">
 <p>Given a point cloud $P=\{p_1,…,p_n\}\subset \mathbb{R}^d $, its
 <strong>Rips complex</strong> of radius <span class="math inline">\(r&gt;0\)</span> is the simplicial complex <span class="math inline">\(R(P,r)\)</span> such that:<br><span class="math inline">\(vert(R(P,r))=P\)</span>, and<br><span class="math display">\[ \sigma = [p_{i_0},p_{i_1},...,p_{i_k}] \in
@@ -592,7 +592,7 @@ simplex.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution4" aria-expanded="false" aria-controls="collapseSolution4">
   <h4 class="accordion-header" id="headingSolution4"> Mathematical definition </h4>
 </button>
-<div id="collapseSolution4" class="accordion-collapse collapse" data-bs-parent="#accordionSolution4" aria-labelledby="headingSolution4">
+<div id="collapseSolution4" class="accordion-collapse collapse" aria-labelledby="headingSolution4" data-bs-parent="#accordionSolution4">
 <div class="accordion-body">
 <p>Given a point cloud <span class="math inline">\(P=\{p_1,...,p_n\}\subset \mathbb{R}^d\)</span>,
 its <strong>Cech complex</strong> of radius <span class="math inline">\(r&gt;0\)</span> is the simplicial complex <span class="math inline">\(C(P,r)\)</span> such that: <span class="math inline">\(vert(C(P,r))=P\)</span>, and<br><span class="math display">\[ \sigma = [p_{i_0},p_{i_1},...,p_{i_k}] \in
@@ -613,23 +613,23 @@ the same set of points <span class="math inline">\(P={p_1,...,p_9}\)</span>.</p>
 <p>The following table shows the number of simplices for each simplicial
 complex.</p>
 <table class="table">
-<thead><tr class="header">
+<thead><tr>
 <th align="center"></th>
 <th align="center"><span class="math inline">\(R(P,r)\)</span></th>
 <th align="center"><span class="math inline">\(C(P,r)\)</span></th>
 </tr></thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td align="center"><span class="math inline">\(0-simplex\)</span></td>
 <td align="center">9</td>
 <td align="center">9</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="center"><span class="math inline">\(1-simplex\)</span></td>
 <td align="center">9</td>
 <td align="center">9</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="center"><span class="math inline">\(2-simplex\)</span></td>
 <td align="center">2</td>
 <td align="center">1</td>
@@ -721,7 +721,7 @@ simplices compared to the previous stage.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution5" aria-expanded="false" aria-controls="collapseSolution5">
   <h4 class="accordion-header" id="headingSolution5"> Mathematical definition </h4>
 </button>
-<div id="collapseSolution5" class="accordion-collapse collapse" data-bs-parent="#accordionSolution5" aria-labelledby="headingSolution5">
+<div id="collapseSolution5" class="accordion-collapse collapse" aria-labelledby="headingSolution5" data-bs-parent="#accordionSolution5">
 <div class="accordion-body">
 <p>A filtration of a simplicial complex <span class="math inline">\(K\)</span> is a collection $K_0\subset K_1 \subset
 …\subset K_N $ of complexes satisfying the two conditions:</p>
@@ -772,36 +772,36 @@ of the filtration</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution6" aria-expanded="false" aria-controls="collapseSolution6">
   <h4 class="accordion-header" id="headingSolution6"> Show me the solution </h4>
 </button>
-<div id="collapseSolution6" class="accordion-collapse collapse" data-bs-parent="#accordionSolution6" aria-labelledby="headingSolution6">
+<div id="collapseSolution6" class="accordion-collapse collapse" aria-labelledby="headingSolution6" data-bs-parent="#accordionSolution6">
 <div class="accordion-body">
 <table class="table">
-<thead><tr class="header">
+<thead><tr>
 <th align="center"></th>
 <th align="center"><span class="math inline">\(\beta_0\)</span></th>
 <th align="center"><span class="math inline">\(\beta_1\)</span></th>
 </tr></thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td align="center"><span class="math inline">\(K_0\)</span></td>
 <td align="center">3</td>
 <td align="center">0</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="center"><span class="math inline">\(K_1\)</span></td>
 <td align="center">2</td>
 <td align="center">0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="center"><span class="math inline">\(K_2\)</span></td>
 <td align="center">1</td>
 <td align="center">0</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="center"><span class="math inline">\(K_3\)</span></td>
 <td align="center">1</td>
 <td align="center">1</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="center"><span class="math inline">\(K_4\)</span></td>
 <td align="center">1</td>
 <td align="center">0</td>
@@ -920,7 +920,7 @@ What is the persistence of the 1-holes?<br>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution7" aria-expanded="false" aria-controls="collapseSolution7">
   <h4 class="accordion-header" id="headingSolution7"> Show me the solution </h4>
 </button>
-<div id="collapseSolution7" class="accordion-collapse collapse" data-bs-parent="#accordionSolution7" aria-labelledby="headingSolution7">
+<div id="collapseSolution7" class="accordion-collapse collapse" aria-labelledby="headingSolution7" data-bs-parent="#accordionSolution7">
 <div class="accordion-body">
 <ol style="list-style-type: lower-alpha">
 <li>
@@ -1223,34 +1223,34 @@ representation of simplicial complexes.
 <p><img src="../fig/tda_09_filtracion_ex.png" alt="Exercise 1 Filtration" width="100%" height="auto" class="figure"> &gt; Perform persistent homology and plot the persistence diagram
 and barcode. &gt; &gt; ## Solution<br>
 &gt; &gt; Step 1: Create a SimplexTree with
-<code>gd.SimplexTree()</code>. &gt; &gt; ~~~ &gt;&gt; st =
+<code>gd.SimplexTree()</code>. &gt; &gt; <sub></sub>~ &gt;&gt; st =
 gd.SimplexTree()<br>
-&gt;&gt; ~~~ &gt;&gt; {: .language-python}<br>
+&gt;&gt; <sub></sub>~ &gt;&gt; {: .language-python}<br>
 &gt;&gt; Step 2: Insert vertices at time 0 using
-<code>st.insert()</code> &gt; &gt; ~~~ &gt;&gt; #insert 0-simplex (the
-vertex), &gt;&gt; st.insert([0]) &gt;&gt; st.insert([1]) &gt;&gt;
-st.insert([2]) &gt;&gt; st.insert([3]) &gt;&gt; st.insert([4]) &gt;&gt;
-~~~ &gt;&gt; {: .language-python}<br>
+<code>st.insert()</code> &gt; &gt; <sub></sub>~ &gt;&gt; #insert
+0-simplex (the vertex), &gt;&gt; st.insert([0]) &gt;&gt; st.insert([1])
+&gt;&gt; st.insert([2]) &gt;&gt; st.insert([3]) &gt;&gt; st.insert([4])
+&gt;&gt; <sub></sub>~ &gt;&gt; {: .language-python}<br>
 &gt;&gt; Step 3: Insert the remaining simplices by setting the
 filtration time using <code>st.insert([0, 1], filtration=)</code>. &gt;
-&gt; ~~~ &gt;&gt; #insert 1-simplex level filtration 1 &gt;&gt;
+&gt; <sub></sub>~ &gt;&gt; #insert 1-simplex level filtration 1 &gt;&gt;
 st.insert([0, 2], filtration=1) &gt;&gt; st.insert([3, 4], filtration=1)
 &gt;&gt; #insert 1-simplex level filtration 2 &gt;&gt; st.insert([0, 1],
 filtration=2) &gt;&gt; #insert 1-simplex level filtration 3 &gt;&gt;
 st.insert([2, 1], filtration=3) &gt;&gt; #insert 1-simplex level
-filtration 4 &gt;&gt; st.insert([2, 1,0], filtration=4) &gt;&gt; ~~~
-&gt;&gt; {: .language-python}<br>
+filtration 4 &gt;&gt; st.insert([2, 1,0], filtration=4) &gt;&gt;
+<sub></sub>~ &gt;&gt; {: .language-python}<br>
 &gt;&gt; Step 4: Perform persistent homology using
-<code>st.persistence()</code>. &gt; &gt; ~~~ &gt;&gt;# Compute the
-persistence diagram &gt;&gt; persistence_diagram = st.persistence()
-&gt;&gt; ~~~ &gt;&gt; {: .language-python}<br>
-&gt;&gt; Step 5: Plot the persistence diagram. &gt; &gt; ~~~ &gt;&gt;#
-plot the persistence diagram &gt;&gt;
+<code>st.persistence()</code>. &gt; &gt; <sub></sub>~ &gt;&gt;# Compute
+the persistence diagram &gt;&gt; persistence_diagram = st.persistence()
+&gt;&gt; <sub></sub>~ &gt;&gt; {: .language-python}<br>
+&gt;&gt; Step 5: Plot the persistence diagram. &gt; &gt; <sub></sub>~
+&gt;&gt;# plot the persistence diagram &gt;&gt;
 gd.plot_persistence_diagram(persistence_diagram,legend=True) &gt;&gt;
-~~~ &gt;&gt; {: .language-python}<br>
-&gt;&gt; Step 6: Plot the barcode. &gt; &gt; ~~~ &gt;&gt;
+<sub></sub>~ &gt;&gt; {: .language-python}<br>
+&gt;&gt; Step 6: Plot the barcode. &gt; &gt; <sub></sub>~ &gt;&gt;
 gd.plot_persistence_barcode(persistence_diagram,legend=True) &gt;&gt;
-~~~ &gt;&gt; {: .language-python}<br>
+<sub></sub>~ &gt;&gt; {: .language-python}<br>
 &gt;&gt; Step 7: Get this output<br>
 &gt;&gt; <a href="../fig/tda_09_diagram_F.png"> &gt;&gt;
 <img src="../fig/tda_09_diagram_F.png" alt="Persistence Diagram" width="50%" height="auto" class="figure">
@@ -1728,7 +1728,7 @@ the treatment of common infections and increasing mortality.</p>
 <button class="accordion-button spoiler-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSpoiler1" aria-expanded="false" aria-controls="collapseSpoiler1">
   <h3 class="accordion-header" id="headingSpoiler1">  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="eye"></i></div> Extra content </h3>
 </button>
-<div id="collapseSpoiler1" class="accordion-collapse collapse" data-bs-parent="#accordionSpoiler1" aria-labelledby="headingSpoiler1">
+<div id="collapseSpoiler1" class="accordion-collapse collapse" aria-labelledby="headingSpoiler1" data-bs-parent="#accordionSpoiler1">
 <div class="accordion-body">
 <p>You can read more about Horizontal Gene Transfer in this <a href="https://en.wikipedia.org/wiki/Horizontal_gene_transfer" class="external-link">Wikipedia
 Article</a>. For instance, the main mechanisms of HGT are the
@@ -2126,7 +2126,7 @@ the following dataframe functions</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <ol style="list-style-type: decimal">
 <li>pd.read_csv</li>
@@ -2221,7 +2221,7 @@ hamming_matrix_3, values, calculate_hamming_matrix, create_complex</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb25">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -2288,7 +2288,7 @@ agalactiae</em> resistome.<br><a href="../../fig/tda_04_barcode_strep.png"><br><
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3"> Show me the solution </h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
 <div class="accordion-body">
 <ol start="3" style="list-style-type: upper-alpha"><li>
 </li></ol>
@@ -2328,7 +2328,7 @@ resistome?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution4" aria-expanded="false" aria-controls="collapseSolution4">
   <h4 class="accordion-header" id="headingSolution4"> Show me the solution </h4>
 </button>
-<div id="collapseSolution4" class="accordion-collapse collapse" data-bs-parent="#accordionSolution4" aria-labelledby="headingSolution4">
+<div id="collapseSolution4" class="accordion-collapse collapse" aria-labelledby="headingSolution4" data-bs-parent="#accordionSolution4">
 <div class="accordion-body">
 <p>There is a 1-holes in the barcode diagram, so there is preliminary
 evidence that this resistome was not acquired only via vertical
@@ -2967,20 +2967,20 @@ single-copy core families?</p>
 (2603V|GBPINHCM_01226,)	0.000000e+00	2.0	2.000	1	0	0	0</code></pre>
 </div>
 <table class="table">
-<thead><tr class="header">
+<thead><tr>
 <th>Partition</th>
 <th>Num. of Families</th>
 </tr></thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Core</td>
 <td>8</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Shell</td>
 <td>6</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Cloud</td>
 <td>2</td>
 </tr>
@@ -3209,8 +3209,8 @@ and we are sure that you can collaborate and help us improve it.</p>
   "url": "https://carpentries-incubator.github.io/topological-data-analysis/instructor/aio.html",
   "identifier": "https://carpentries-incubator.github.io/topological-data-analysis/instructor/aio.html",
   "dateCreated": "2024-01-15",
-  "dateModified": "2026-04-28",
-  "datePublished": "2026-04-28"
+  "dateModified": "2026-05-05",
+  "datePublished": "2026-05-05"
 }
 
   </script><script>

@@ -566,34 +566,34 @@ representation of simplicial complexes.
 <p><img src="fig/tda_09_filtracion_ex.png" alt="Exercise 1 Filtration" width="100%" height="auto" class="figure"> &gt; Perform persistent homology and plot the persistence diagram
 and barcode. &gt; &gt; ## Solution<br>
 &gt; &gt; Step 1: Create a SimplexTree with
-<code>gd.SimplexTree()</code>. &gt; &gt; ~~~ &gt;&gt; st =
+<code>gd.SimplexTree()</code>. &gt; &gt; <sub></sub>~ &gt;&gt; st =
 gd.SimplexTree()<br>
-&gt;&gt; ~~~ &gt;&gt; {: .language-python}<br>
+&gt;&gt; <sub></sub>~ &gt;&gt; {: .language-python}<br>
 &gt;&gt; Step 2: Insert vertices at time 0 using
-<code>st.insert()</code> &gt; &gt; ~~~ &gt;&gt; #insert 0-simplex (the
-vertex), &gt;&gt; st.insert([0]) &gt;&gt; st.insert([1]) &gt;&gt;
-st.insert([2]) &gt;&gt; st.insert([3]) &gt;&gt; st.insert([4]) &gt;&gt;
-~~~ &gt;&gt; {: .language-python}<br>
+<code>st.insert()</code> &gt; &gt; <sub></sub>~ &gt;&gt; #insert
+0-simplex (the vertex), &gt;&gt; st.insert([0]) &gt;&gt; st.insert([1])
+&gt;&gt; st.insert([2]) &gt;&gt; st.insert([3]) &gt;&gt; st.insert([4])
+&gt;&gt; <sub></sub>~ &gt;&gt; {: .language-python}<br>
 &gt;&gt; Step 3: Insert the remaining simplices by setting the
 filtration time using <code>st.insert([0, 1], filtration=)</code>. &gt;
-&gt; ~~~ &gt;&gt; #insert 1-simplex level filtration 1 &gt;&gt;
+&gt; <sub></sub>~ &gt;&gt; #insert 1-simplex level filtration 1 &gt;&gt;
 st.insert([0, 2], filtration=1) &gt;&gt; st.insert([3, 4], filtration=1)
 &gt;&gt; #insert 1-simplex level filtration 2 &gt;&gt; st.insert([0, 1],
 filtration=2) &gt;&gt; #insert 1-simplex level filtration 3 &gt;&gt;
 st.insert([2, 1], filtration=3) &gt;&gt; #insert 1-simplex level
-filtration 4 &gt;&gt; st.insert([2, 1,0], filtration=4) &gt;&gt; ~~~
-&gt;&gt; {: .language-python}<br>
+filtration 4 &gt;&gt; st.insert([2, 1,0], filtration=4) &gt;&gt;
+<sub></sub>~ &gt;&gt; {: .language-python}<br>
 &gt;&gt; Step 4: Perform persistent homology using
-<code>st.persistence()</code>. &gt; &gt; ~~~ &gt;&gt;# Compute the
-persistence diagram &gt;&gt; persistence_diagram = st.persistence()
-&gt;&gt; ~~~ &gt;&gt; {: .language-python}<br>
-&gt;&gt; Step 5: Plot the persistence diagram. &gt; &gt; ~~~ &gt;&gt;#
-plot the persistence diagram &gt;&gt;
+<code>st.persistence()</code>. &gt; &gt; <sub></sub>~ &gt;&gt;# Compute
+the persistence diagram &gt;&gt; persistence_diagram = st.persistence()
+&gt;&gt; <sub></sub>~ &gt;&gt; {: .language-python}<br>
+&gt;&gt; Step 5: Plot the persistence diagram. &gt; &gt; <sub></sub>~
+&gt;&gt;# plot the persistence diagram &gt;&gt;
 gd.plot_persistence_diagram(persistence_diagram,legend=True) &gt;&gt;
-~~~ &gt;&gt; {: .language-python}<br>
-&gt;&gt; Step 6: Plot the barcode. &gt; &gt; ~~~ &gt;&gt;
+<sub></sub>~ &gt;&gt; {: .language-python}<br>
+&gt;&gt; Step 6: Plot the barcode. &gt; &gt; <sub></sub>~ &gt;&gt;
 gd.plot_persistence_barcode(persistence_diagram,legend=True) &gt;&gt;
-~~~ &gt;&gt; {: .language-python}<br>
+<sub></sub>~ &gt;&gt; {: .language-python}<br>
 &gt;&gt; Step 7: Get this output<br>
 &gt;&gt; <a href="fig/tda_09_diagram_F.png"> &gt;&gt;
 <img src="fig/tda_09_diagram_F.png" alt="Persistence Diagram" width="50%" height="auto" class="figure">
@@ -1050,7 +1050,7 @@ matrices, simulated data, and manually</li>
   "identifier": "https://carpentries-incubator.github.io/topological-data-analysis/02-Tools-for-TDA.html",
   "dateCreated": "2024-01-15",
   "dateModified": "2026-02-20",
-  "datePublished": "2026-04-28"
+  "datePublished": "2026-05-05"
 }
 
   </script><script>
